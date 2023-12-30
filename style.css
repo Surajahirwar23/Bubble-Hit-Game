@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+main{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(236, 222, 248);
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    border-radius: 6px;
+    overflow: hidden;
+}
+#bTop{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(104, 2, 148);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 8vw;
+}
+#bTop .hit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#bTop .hit #hitNm{
+    background: white;
+    color: black;
+    padding: 1px 10px;
+    border-radius: 2px;
+    font-size: 1.6rem;
+}
+#bTop .score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#bTop .score #scoreNm{
+    background: white;
+    color: black;
+    padding: 1px 10px;
+    border-radius: 2px;
+    font-size: 1.6rem;
+
+}
+#bTop .timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#bTop .timer #timerNm{
+    background: white;
+    color: black;
+    padding: 1px 10px;
+    border-radius: 2px;
+    font-size: 1.6rem;
+
+}
+#bBottum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 2px;
+    width: 100%;
+    height: 80vh;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+#bBottum p{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: rgb(179, 64, 228);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 200ms;
+}
+#bBottum p:hover{
+    background-color: rgb(84, 30, 135);
+}
+
+                 /* Responsive for Mobile */
+
+
+   @media screen and (max-width:450px) {
+
+  
+    
+   }              
